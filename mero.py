@@ -41,14 +41,20 @@
 # name = input("Enter Your Name: ")    #dia mcm gets.chomp jg tpi dia tukar p input sahaja
 # print("hello " + name + " Welcome")
 
-how to make a calculater #
 
-nums = input("ENTER A NUMBER: ")        #  cara buat caclculater tapi yang ini saya tambah int dalam varible "jawapan"
-num = input("ENTER ANOTHER NUMBER: ")   #1 sebab "int" dia akan tukar apa yang dalam user input pergi ke intiger
-jawapan = int(nums) + int(num)          #2 sebab kalau tidak letak "int" dia akan string bukan interger dalam input user
+# how to make a calculater #
+
+# nums = input("ENTER A NUMBER: ")        #  cara buat caclculater tapi yang ini saya tambah int dalam varible "jawapan"
+# num = input("ENTER ANOTHER NUMBER: ")   #1 sebab "int" dia akan tukar apa yang dalam user input pergi ke intiger
+# jawapan = int(nums) + int(num)          #2 sebab kalau tidak letak "int" dia akan string bukan interger dalam input user
+#
+# print(jawapan)
+
+nums = input("ENTER A NUMBER: ")          # ini sama juga macam diatas tapi yang di atas cuma boleh kira nombor biasa seja
+num = input("ENTER ANOTHER NUMBER: ")     #1 tapi yang ini boleh kira decimal (maksud nombor yang ada point. titik perpuluhan
+jawapan = float(num) + float(nums)
 
 print(jawapan)
-
 
 
 
